@@ -3,16 +3,16 @@ import "./_products.scss";
 const Products = () => {
   return (
     <div>
-      <div className="mx-5 p-3 col-lg-3 col-md-6">
-        <div>
+      <div className="mx-5 p-3 col-lg-3 col-md-6 product-card">
+        <div className="product-image-container">
           <img src={require("../../assets/images/shop/shop-1.jpg")} />
         </div>
-        <div>
+        <div className="product-info">
           <h5>
             {" "}
             <a href="#">Jacket</a>{" "}
           </h5>
-          <p> ₹ 4500 </p>
+          <p className="product-price"> ₹ 4500 </p>
         </div>
       </div>
     </div>
