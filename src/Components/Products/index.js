@@ -49,13 +49,6 @@ const Products = () => {
               </h5>
               <p className="product-price"> ₹ {product.price * 90} </p>
             </div>
-            <div className="product-rating">
-              <i className="fa fa-star" />
-              <i className="fa fa-star" />
-              <i className="fa fa-star" />
-              <i className="fa fa-star" />
-              <i className="fa fa-star" />
-            </div>
           </div>
         );
       })}
