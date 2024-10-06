@@ -34,5 +34,13 @@
                 font-size: 1.2em;
             }
         }
+        .product-rating{
+            display: flex;
+            justify-content: center;
+            i{
+                color: gold;
+                font-size: small;
+            }
+        }
     }
 }
